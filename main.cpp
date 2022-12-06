@@ -2,23 +2,16 @@
 #include "lib.h"
 using namespace std;
 
-int main(){
-  bool b;
-    char a,ris;
+int main() {
+    char a;
+    char b;
     cout<<"inserire un carattere:"<<endl;
     cin>>a;
-    b=conv(a);
-    while (b==true) {
-        if (a >= 'a' && a <= 'z') {
-            ris = a - 32;
+    b= conv(a);
+    if (b==true) {
             cout<<ris<<endl;
-        } else if (a >= 'A' && a <= 'Z') {
-            ris = a + 32;
-            cout<<ris<<endl;
-        }
-        return ris;
+        }else{
+        cout << "errore" << endl;
     }
-
-    cout << "errore" << endl;
-  return 0;
+    return 0;
 }

@@ -1,6 +1,5 @@
 #include "lib.h"
 using namespace std;
-char ris;
 bool conv(char c) {
     if (c >= 'a' && c <= 'z') {
         ris = c - 32;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
+extern char ris;
 
 int main() {
     char a;
@@ -9,7 +10,7 @@ int main() {
     cin>>a;
     b= conv(a);
     if (b==true) {
-            cout<<ris<<endl;
+        cout<<ris<<endl;
         }else{
         cout << "errore" << endl;
     }

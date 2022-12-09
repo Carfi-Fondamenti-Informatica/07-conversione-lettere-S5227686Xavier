@@ -1,6 +1,6 @@
 
-#ifndef PROVA_CONV_LETT_LIB_H
-#define PROVA_CONV_LETT_LIB_H
-bool conv(char c);
-
-#endif //PROVA_CONV_LETT_LIB_H
+#ifndef CONV_LETT_LIB_H
+#define CONV_LETT_LIB_H
+char conv(char c);
+bool check(int c);
+#endif //CONV_LETT_LIB_H

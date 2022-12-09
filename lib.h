@@ -1,6 +1,6 @@
 
 #ifndef CONV_LETT_LIB_H
 #define CONV_LETT_LIB_H
-char conv(char c);
-bool check(int c);
+char conversione(char x);
+bool checkimput(int x);
 #endif //CONV_LETT_LIB_H
